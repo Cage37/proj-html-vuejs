@@ -1,1 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+.space {
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+header {
+  height: 525px;
+  width: 100%;
+  background-image: url(/dist/images/background-pattern-wavify.png);
+}
+header .th_navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .th_href {
+  display: flex;
+  flex-direction: row;
+}
+header .th_href a {
+  text-decoration: none;
+  color: black;
+  vertical-align: middle;
+  padding-right: 20px;
+  font-size: 12px;
+}
+header .th_href i {
+  font-size: 10px;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+header .th_img img {
+  width: 170px;
+  height: 25px;
+}
+header .th_icon {
+  margin-top: 5px;
+}
+header .th_icon i {
+  width: 10px;
+  height: 10px;
+  padding-right: 30px;
+}
+header .bh_section {
+  width: 100%;
+  height: 455px;
+  display: flex;
+  flex-direction: row;
+}
+header .bh_section .bh_left {
+  width: 40%;
+}
+header .bh_section .bh_left .bh_littlep {
+  margin-top: 90px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+header .bh_section .bh_left h1 {
+  font-size: 2.5rem;
+  word-spacing: 23px;
+  font-weight: 400;
+  line-height: 50px;
+}
+header .bh_section .bh_left .bh_bigp {
+  margin-top: 10px;
+  word-spacing: 5px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+header .bh_section .bh_left button {
+  padding: 10px 50px;
+  color: #FFFFFF;
+  background-color: #20AC97;
+  vertical-align: middle;
+  border: 1px solid #20AC97;
+  border-radius: 5px;
+}
+header .bh_section .bh_left button i {
+  vertical-align: middle;
+  font-size: 15px;
+  padding-left: 5px;
+}
+header .bh_section .bh_left button:hover {
+  background-color: #044689;
+  cursor: pointer;
+}
+header .bh_section .bh_right {
+  width: 60%;
+}
+header .bh_section .bh_right img {
+  height: 90%;
+  padding-left: 150px;
+  margin-top: 45px;
+}
+header .h_icon {
+  width: 30px;
+  height: 100px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -360px;
+  margin-left: 1410px;
+  background-color: #FFFFFF;
+  border: 2px solid #f5efef;
+  line-height: 12px;
+}
+header .h_icon i {
+  font-size: 10px;
+}

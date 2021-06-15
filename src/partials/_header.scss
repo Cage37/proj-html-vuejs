@@ -1,0 +1,132 @@
+// Header
+
+header{
+    height: 525px;
+    width: 100%;
+    background-image: url(/dist/images/background-pattern-wavify.png);
+
+    .th_navbar{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .th_href{
+        display: flex;
+        flex-direction: row;
+
+        a {
+        text-decoration: none;
+        color: black;
+        vertical-align: middle;
+        padding-right: 20px;
+        font-size: 12px;
+        }
+
+        i{
+            font-size: 10px;
+            padding-left: 5px;
+            vertical-align: middle;
+        }
+    }    
+
+    .th_img img{
+        width: 170px;
+        height: 25px;
+    }
+
+    .th_icon{
+        margin-top: 5px;
+
+        i{
+            width: 10px;
+            height: 10px;
+            padding-right: 30px;
+        }
+    }
+
+    .bh_section{
+        width: 100%;
+        height: 455px;
+        display: flex;
+        flex-direction: row;
+
+        .bh_left{
+            width: 40%;
+
+            .bh_littlep{
+                margin-top: 90px;
+                margin-bottom: 10px;
+                font-size: 12px;
+                font-weight: 700;
+            }
+
+            h1{
+                font-size: 2.5rem;
+                word-spacing: 23px;
+                font-weight: 400;
+                line-height: 50px;
+            }
+
+            .bh_bigp{
+                margin-top: 10px;
+                word-spacing: 5px;
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+
+            button{
+                padding: 10px 50px;
+                color: $white;
+                background-color: $mountain_meadow;
+                vertical-align: middle;
+                border: 1px solid $mountain_meadow;
+                border-radius: 5px;
+
+                i{
+                    vertical-align: middle;
+                    font-size: 15px;
+                    padding-left: 5px;
+                }
+                
+            }
+
+            button:hover{
+                background-color: $congress_blue;
+                cursor: pointer;
+            }
+        }
+
+        .bh_right{
+            width: 60%;
+
+            img{
+                height: 90%;
+                padding-left: 150px;
+                margin-top: 45px;
+            }
+        }
+    }
+
+    .h_icon{
+        width: 30px;
+        height: 100px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -360px;
+        margin-left: 1410px;
+        background-color: $white;
+        border: 2px solid rgb(245, 239, 239);
+        line-height: 12px;
+
+        i{
+            font-size: 10px;
+        }
+    }
+}

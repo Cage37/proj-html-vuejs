@@ -13,13 +13,72 @@
     <div id="app">
 
         <!-- Header -->
-        <header></header>
+        <header>
+            <div class="space">
+                <div class="th_navbar">
+                    <div class="th_img">
+                        <img src="./dist/images/dark-logo.png" alt="">
+                    </div>
+                    <div class="th_href">
+                        <div v-for="(index) in linkHeader">
+                            <a :href="index.link">{{ index.nameLink }} <i class="fas fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="th_icon">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="bh_section">
+                    <div class="bh_left">
+                        <p class="bh_littlep">I'M WINGMAN</p>
+                        <h1>Peace On Earth A Wonderful Wish But No Way</h1>
+                        <p class="bh_bigp">Success isn't overnight. It's when everyday you get a little better than the day before. It all adds up.</p>
+                        <button>Get Started For Free <i class="fas fa-long-arrow-alt-right"></i></button>
+
+                    </div>
+                    <div class="bh_right">
+                        <img src="./dist/images/home-movation-hero-image.png" alt="">
+
+                    </div>
+                </div>
+            </div>
+            <div class="h_icon">
+                <i class="fas fa-exclamation-triangle"></i><br>
+                <i class="far fa-life-ring"></i><br>
+                <i class="fas fa-book"></i><br>
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+        </header>
         <!-- /Header -->
 
         <!-- Main -->
         <main>
 
             <!-- First main -->
+
+            <!-- <div class="space">
+                <div class="fm_top">
+                    <div class="fm_container">
+                        <p class="fm_number">1.926</p>
+                        <p class="fm_p">FINISHED SESSIONS</p>
+                    </div>
+                    <div class="fm_container">
+                        <p class="fm_number">100%</p>
+                        <p class="fm_p">SATISFACTION RATE</p>
+                    </div>
+                    <div class="fm_container">
+                        <p class="fm_number">3092+</p>
+                        <p class="fm_p">ENROLLED LEARNES</p>
+                    </div>
+                    <div class="fm_container">
+                        <p class="fm_number">200</p>
+                        <p class="fm_p">ONLINE INSTRUCTORS</p>
+                    </div>
+                </div>
+            </div> -->
 
             <!-- Second main -->
 
