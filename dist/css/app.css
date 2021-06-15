@@ -119,3 +119,135 @@ header .h_icon {
 header .h_icon i {
   font-size: 10px;
 }
+
+.fm_top {
+  width: 100%;
+  height: 200px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.fm_top .fm_container:first-child {
+  border-left: 1px dotted #afe5dd;
+}
+.fm_top .fm_container {
+  margin-top: 80px;
+  height: 65px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px dotted #afe5dd;
+  margin-bottom: 100px;
+}
+.fm_top .fm_container .fm_number {
+  color: #20AC97;
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+.fm_top .fm_container .fm_p {
+  font-size: 10px;
+}
+
+.fm_bottom {
+  width: 100%;
+  height: 600px;
+  background-color: #FFFFFF;
+}
+.fm_bottom .fm_bottom_about {
+  height: 35px;
+}
+.fm_bottom .fm_bottom_about h4 {
+  color: #20AC97;
+}
+.fm_bottom .fm_bottom_tablet {
+  height: 175px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.fm_bottom .fm_bottom_tablet .fm_bottom_tablet_left {
+  height: 100%;
+  width: 50%;
+}
+.fm_bottom .fm_bottom_tablet .fm_bottom_tablet_left .fm_bottom_tablet_left_title {
+  width: 70%;
+}
+.fm_bottom .fm_bottom_tablet .fm_bottom_tablet_left .fm_bottom_tablet_left_title h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 50px;
+}
+.fm_bottom .fm_bottom_tablet .fm_bottom_tablet_right {
+  height: 100%;
+  width: 50%;
+}
+.fm_bottom .fm_bottom_tablet .fm_bottom_tablet_right h5 {
+  font-size: 13px;
+  line-height: 20px;
+  word-spacing: 5px;
+  margin-bottom: 15px;
+}
+.fm_bottom .fm_bottom_tablet .fm_bottom_tablet_right h5 span {
+  color: #20AC97;
+}
+.fm_bottom .fm_bottom_tablet .fm_bottom_tablet_right p {
+  font-size: 13px;
+  word-spacing: 2px;
+  line-height: 20px;
+  color: #6B6C6C;
+}
+.fm_bottom .fm_bottom_tableb {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.fm_bottom .fm_bottom_tableb .fm_bottom_tableb_img {
+  height: 300px;
+  width: 55%;
+  background-image: url(/dist/images/home-movation-video-poster-670x450.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fm_bottom .fm_bottom_tableb .fm_bottom_tableb_img img {
+  margin-top: 40px;
+  width: 75px;
+  height: auto;
+}
+.fm_bottom .fm_bottom_tableb .fm_bottom_tableb_right {
+  height: 300px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 90px;
+}
+.fm_bottom .fm_bottom_tableb .fm_bottom_tableb_right .fm_bottom_tableb_rightp {
+  font-size: 20px;
+  word-spacing: 10px;
+  line-height: 30px;
+  padding-bottom: 40px;
+}
+.fm_bottom .fm_bottom_tableb .fm_bottom_tableb_right img {
+  width: 15px;
+  height: 15px;
+}
+.fm_bottom .fm_bottom_tableb .fm_bottom_tableb_right .fm_bottom_tableb_right_kaixa {
+  font-size: 15px;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #171520;
+}
+.fm_bottom .fm_bottom_tableb .fm_bottom_tableb_right .fm_bottom_tableb_right_wingman {
+  font-size: 10px;
+  color: #6B6C6C;
+}
