@@ -251,3 +251,114 @@ header .h_icon i {
   font-size: 10px;
   color: #6B6C6C;
 }
+
+.ssm_maincont {
+  height: 1000px;
+  width: 100%;
+}
+.ssm_maincont .sm_title_top {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.ssm_maincont .sm_title_top h5 {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #6B6C6C;
+}
+.ssm_maincont .sm_title_top h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+.ssm_maincont .sm_title_top h1 span {
+  color: #20AC97;
+}
+.ssm_maincont .ssm_tablemain {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.ssm_maincont .ssm_tablemain .ssm_tablecont {
+  margin-top: 50px;
+  height: 300px;
+  width: 30%;
+  margin-right: 3%;
+  display: flex;
+  flex-direction: column;
+}
+.ssm_maincont .ssm_tablemain .ssm_tablecont img {
+  width: 100%;
+  height: 170px;
+}
+.ssm_maincont .ssm_tablemain .ssm_tablecont .ssm_tablecont_bottom {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.ssm_maincont .ssm_tablemain .ssm_tablecont .ssm_tablecont_bottom .tablenumber {
+  color: #20AC97;
+  margin-top: 20px;
+  font-weight: 700;
+}
+.ssm_maincont .ssm_tablemain .ssm_tablecont .ssm_tablecont_bottom .tablenumber span {
+  font-weight: 700;
+  font-size: 14px;
+}
+.ssm_maincont .ssm_tablemain .ssm_tablecont .ssm_tablecont_bottom p {
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #171520;
+}
+.ssm_maincont .ssm_tablemain .ssm_tablecont .ssm_tablecont_bottom .tableicon {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  vertical-align: middle;
+  align-items: center;
+}
+.ssm_maincont .ssm_tablemain .ssm_tablecont .ssm_tablecont_bottom .tableicon i {
+  font-size: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-weight: 100;
+}
+.ssm_maincont .ssm_tablemain .ssm_tablecont .ssm_tablecont_bottom .tableicon .profiletable {
+  padding-left: 20px;
+}
+.ssm_maincont .ssm_tablemain .ssm_tablecont .ssm_tablecont_bottom .tableicon p {
+  font-size: 10px;
+  font-weight: 100;
+}
+.ssm_maincont .ssm_contbutton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.ssm_maincont .ssm_contbutton button {
+  padding: 15px 50px;
+  color: #FFFFFF;
+  background-color: #20AC97;
+  vertical-align: middle;
+  border: 1px solid #20AC97;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.ssm_maincont .ssm_contbutton button i {
+  vertical-align: middle;
+  font-size: 12px;
+  padding-left: 5px;
+}
+.ssm_maincont .ssm_contbutton button:hover {
+  background-color: #044689;
+  cursor: pointer;
+}
