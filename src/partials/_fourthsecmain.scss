@@ -1,0 +1,96 @@
+// Fourth Section Main
+
+.fourthsec_main{
+    height: 600px;
+    width: 100%;
+    margin-top: 50px;
+
+    .fourthsec_main_container{
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+
+        .fourthsec_main_content{
+            height: 100%;
+            width: 50%;
+            background-image: url(/dist/images/background-pattern-wavify.png);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 70px;
+            
+
+            span{
+                font-size: 12px;
+                color: $mountain_meadow;
+            }
+
+            .fourthsec_main_content{
+                width: 45%;
+                height: 150px;
+                text-align: center;
+                
+
+                p{
+                    font-size: 16px;
+                    word-spacing: 5px;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+            }
+
+            img{
+                margin-top: 60px;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                
+            }
+
+            .fourthsec_main_content_p{
+                padding-top: 30px;
+                padding-bottom: 20px;
+            }
+
+            .fourthsec_main_content_span{
+                font-size: 12px;
+                color: $silver_sand;
+            }
+        }
+
+        .fourthsec_main_img{
+            height: 100%;
+            width: 50%;
+            
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .center_circlediv{
+            position: absolute;
+
+            .center_circle{
+                height: 90px;
+                width: 90px;
+                border-radius: 50%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0px 0px 10px 1px $silver_sand;
+
+                i{
+                    font-size: 15px;
+                    color: $silver_sand;
+                }
+            }
+        }
+    }
+}
