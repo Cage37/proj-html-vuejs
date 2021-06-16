@@ -1,0 +1,136 @@
+// Third Section Main
+
+.tsm_maincont{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .tsm_maincontleft{
+        height: 300px;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+
+        h5{
+            font-size: 12px;
+            word-spacing: 5px;
+            font-weight: 100;
+        }
+
+        h1{
+            color: $cinder;
+            font-size: 2.5rem;
+            word-spacing: 10px;
+            font-weight: 200;
+            padding-top: 10px;
+
+            span{
+                color: $mountain_meadow;
+            }
+        }
+
+        .tsm_maincontleft_ip{
+            width: 220px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            line-height: 30px;
+
+            i{
+                font-size: 12px;
+                vertical-align: middle;
+                color: $mountain_meadow;
+                padding-right: 10px;
+            }
+
+            span{
+                font-size: 12px;
+                vertical-align: middle;
+                word-spacing: 5px;
+                color: $corduroy;
+            }
+        }
+
+        .tsm_maincontleft_button{
+            width: 200px;
+            margin-top: 30px;
+
+            button{
+                padding: 10px 40px;
+                color: $white;
+                background-color: $mountain_meadow;
+                vertical-align: middle;
+                border: 1px solid $mountain_meadow;
+                border-radius: 5px;
+                font-size: 12px;
+            }
+    
+            button:hover{
+                background-color: $congress_blue;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .tsm_maincontright{
+        height: 300px;
+        width: 55%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        .tsm_maincontright_book{
+            height: 250px;
+            width: 45%;
+            margin-right: 5%;
+
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .tsm_maincontright_book_desc {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            .book_desc{
+                font-size: 15px;
+                color: $cinder;
+                font-weight: 700;
+                padding-top: 25px;
+            }
+
+            .book_cost{
+                font-size: 15px;
+                padding-top: 15px;
+                font-weight: 700;
+                color: $mountain_meadow;
+
+                span{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+.tsm_loghi{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+
+    img{
+        filter: opacity(30%);
+
+    }
+}

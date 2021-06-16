@@ -362,3 +362,119 @@ header .h_icon i {
   background-color: #044689;
   cursor: pointer;
 }
+
+.tsm_maincont {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.tsm_maincont .tsm_maincontleft {
+  height: 300px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.tsm_maincont .tsm_maincontleft h5 {
+  font-size: 12px;
+  word-spacing: 5px;
+  font-weight: 100;
+}
+.tsm_maincont .tsm_maincontleft h1 {
+  color: #171520;
+  font-size: 2.5rem;
+  word-spacing: 10px;
+  font-weight: 200;
+  padding-top: 10px;
+}
+.tsm_maincont .tsm_maincontleft h1 span {
+  color: #20AC97;
+}
+.tsm_maincont .tsm_maincontleft .tsm_maincontleft_ip {
+  width: 220px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  line-height: 30px;
+}
+.tsm_maincont .tsm_maincontleft .tsm_maincontleft_ip i {
+  font-size: 12px;
+  vertical-align: middle;
+  color: #20AC97;
+  padding-right: 10px;
+}
+.tsm_maincont .tsm_maincontleft .tsm_maincontleft_ip span {
+  font-size: 12px;
+  vertical-align: middle;
+  word-spacing: 5px;
+  color: #6B6C6C;
+}
+.tsm_maincont .tsm_maincontleft .tsm_maincontleft_button {
+  width: 200px;
+  margin-top: 30px;
+}
+.tsm_maincont .tsm_maincontleft .tsm_maincontleft_button button {
+  padding: 10px 40px;
+  color: #FFFFFF;
+  background-color: #20AC97;
+  vertical-align: middle;
+  border: 1px solid #20AC97;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.tsm_maincont .tsm_maincontleft .tsm_maincontleft_button button:hover {
+  background-color: #044689;
+  cursor: pointer;
+}
+.tsm_maincont .tsm_maincontright {
+  height: 300px;
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.tsm_maincont .tsm_maincontright .tsm_maincontright_book {
+  height: 250px;
+  width: 45%;
+  margin-right: 5%;
+}
+.tsm_maincont .tsm_maincontright .tsm_maincontright_book img {
+  height: 100%;
+  width: 100%;
+}
+.tsm_maincont .tsm_maincontright .tsm_maincontright_book_desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.tsm_maincont .tsm_maincontright .tsm_maincontright_book_desc .book_desc {
+  font-size: 15px;
+  color: #171520;
+  font-weight: 700;
+  padding-top: 25px;
+}
+.tsm_maincont .tsm_maincontright .tsm_maincontright_book_desc .book_cost {
+  font-size: 15px;
+  padding-top: 15px;
+  font-weight: 700;
+  color: #20AC97;
+}
+.tsm_maincont .tsm_maincontright .tsm_maincontright_book_desc .book_cost span {
+  font-size: 13px;
+}
+
+.tsm_loghi {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+.tsm_loghi img {
+  filter: opacity(30%);
+}
