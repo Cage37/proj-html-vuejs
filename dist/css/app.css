@@ -287,7 +287,7 @@ header .h_icon i {
 }
 .ssm_maincont .ssm_tablemain .ssm_tablecont {
   margin-top: 50px;
-  height: 300px;
+  height: 330px;
   width: 30%;
   margin-right: 3%;
   display: flex;
@@ -323,6 +323,7 @@ header .h_icon i {
   flex-wrap: wrap;
   vertical-align: middle;
   align-items: center;
+  margin-bottom: 30px;
 }
 .ssm_maincont .ssm_tablemain .ssm_tablecont .ssm_tablecont_bottom .tableicon i {
   font-size: 10px;
@@ -361,6 +362,11 @@ header .h_icon i {
 .ssm_maincont .ssm_contbutton button:hover {
   background-color: #044689;
   cursor: pointer;
+}
+
+.ssm_tablecont:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 1px #BBBCBD;
 }
 
 .tsm_maincont {
