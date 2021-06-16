@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 70px;
 
     .tsm_maincontleft{
         height: 300px;
@@ -86,10 +87,37 @@
             height: 250px;
             width: 45%;
             margin-right: 5%;
+            position: relative;
 
-            img{
+            .imgicon_hover{
                 height: 100%;
                 width: 100%;
+
+                img{
+                    height: 100%;
+                    width: 100%;
+                }
+    
+                .divicon_h{
+                    position: absolute;
+                    height: 100px;
+                    width: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: -185px;
+                    margin-left: 185px;
+                    
+                    i{
+                        font-size: 10px;
+                        margin: 5px;
+                        padding: 9px;
+                        background-color: white;
+                        border-radius: 50%;
+                        opacity: 0;
+                    }
+                }
             }
         }
 
@@ -99,6 +127,7 @@
             align-items: center;
             flex-direction: column;
             flex-wrap: wrap;
+            margin-top: 10px;
 
             .book_desc{
                 font-size: 15px;
@@ -133,4 +162,11 @@
         filter: opacity(30%);
 
     }
+}
+
+// Hover
+
+.imgicon_hover:hover > .divicon_h > i{
+    cursor: pointer;
+    opacity: 1 !important;
 }
