@@ -37,12 +37,13 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-between;
 
         .ssm_tablecont{
             margin-top: 50px;
             height: 330px;
             width: 30%;
-            margin-right: 3%;
+            
             display: flex;
             flex-direction: column;
 
