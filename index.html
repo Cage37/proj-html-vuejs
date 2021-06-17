@@ -15,6 +15,7 @@
         <!-- Header -->
         <header>
             <div class="space">
+                <!-- Navbar Header -->
                 <div class="th_navbar">
                     <div class="th_img">
                         <img src="./dist/images/dark-logo.png" alt="">
@@ -31,6 +32,7 @@
                         <i class="fab fa-linkedin"></i>
                     </div>
                 </div>
+                <!-- Jumbotron Header -->
                 <div class="bh_section">
                     <div class="bh_left">
                         <p class="bh_littlep">I'M WINGMAN</p>
@@ -41,7 +43,6 @@
                     </div>
                     <div class="bh_right">
                         <img src="./dist/images/home-movation-hero-image.png" alt="">
-
                     </div>
                 </div>
             </div>
@@ -79,7 +80,7 @@
                     </div>
                 </div>
             </div>
-
+            <!-- Section "About me" -->
             <div class="space">
                 <div class="fm_bottom">
                     <div class="fm_bottom_about">
@@ -120,6 +121,7 @@
                         <h1>Latest <span>Online Courses</span></h1>
                     </div>
                     <div class="ssm_tablemain">
+                        <!-- Section "Courses card" -->
                         <div class="ssm_tablecont" v-for="(index) in latestCoursesCard">
                             <img :src="index.image" alt="">
                             <div class="ssm_tablecont_bottom">
@@ -143,6 +145,7 @@
             <div class="space">
                 <div class="tsm_maincont">
                     <div class="tsm_maincontleft">
+                        <!-- Section "Book store online" -->
                         <h5>BOOK STORE ONLINE</h5>
                         <h1>Be Alpha With <span>Wingman's Book</span> </h1>
                         <div class="tsm_maincontleft_ip">
@@ -154,7 +157,6 @@
                         <div class="tsm_maincontleft_button">
                             <button>Get Free Ebook</button>
                         </div>
-
                     </div>
                     <div class="tsm_maincontright">
                         <div class="tsm_maincontright_book">
@@ -189,6 +191,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Section sponsor -->
                 <div class="tsm_loghi">
                     <img src="./dist/images/client-logo-05-primary.png" alt="">
                     <img src="./dist/images/client-logo-06-primary.png" alt="">
@@ -204,12 +207,12 @@
             <div class="fourthsec_main">
                 <div class="fourthsec_main_container">
                     <div class="fourthsec_main_content">
+                        <!-- Section "Real stories" -->
                         <span>REAL STORIES</span>
                         <div class="fourthsec_main_content"><p>I am free to learn at my own pace, follow my own schedule and choose the subject I want to learn from the syllabus. Great study portal for people like me.</p></div>
                         <img src="./dist/images/testimonial-avata-02.jpg" alt="">
                         <p class="fourthsec_main_content_p">Mina Hollace</p>
                         <span class="fourthsec_main_content_span">/Freelancer</span>
-
                     </div>
                     <div class="fourthsec_main_img">
                         <img src="./dist/images/home-movation-testimonial-image-768x562.jpg" alt="">
@@ -229,6 +232,7 @@
 
             <div class="space">
                 <div class="fifthsec_main">
+                    <!-- Section "Blog update" -->
                     <h5>BLOG UPDATED</h5>
                     <h1>Interesting <span>articles updated</span> daily</h1>
                     <div class="fifthsec_maincontainer">
@@ -243,11 +247,11 @@
                         </div>
                     </div>
                     <div class="fifthsec_main_href">
-                        <a href="">VIEW ALL POST</a>
+                        <div class="bb_href">
+                            <a href="">VIEW ALL POST</a>
+                        </div>
                     </div>
-
                 </div>
-
             </div>
 
         </main>

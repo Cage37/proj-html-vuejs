@@ -80,8 +80,17 @@
         align-items: center;
         justify-content: center;
 
+        .bb_href{
+            width: 125px;
+            padding: 3px;
+            border-bottom: 1px solid $mountain_meadow;
+
+        }
+
         a{
             color: $mountain_meadow;
+            text-align: center;
+            text-decoration: none;
             text-align: center;
         }
 
