@@ -594,3 +594,77 @@ header .h_icon i {
   font-size: 15px;
   color: #BBBCBD;
 }
+
+.fifthsec_main {
+  height: 600px;
+  width: 100%;
+}
+.fifthsec_main h5 {
+  font-size: 12px;
+  font-weight: 200;
+  color: #6B6C6C;
+}
+.fifthsec_main h1 {
+  font-size: 2rem;
+  font-weight: 100;
+  padding-top: 15px;
+}
+.fifthsec_main h1 span {
+  color: #20AC97;
+}
+.fifthsec_main .fifthsec_maincontainer {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.fifthsec_main .fifthsec_maincontainer .fifthsec_maincontent {
+  height: 100%;
+  width: 220px;
+}
+.fifthsec_main .fifthsec_maincontainer .fifthsec_maincontent img {
+  width: 100%;
+  height: 150px;
+  border-radius: 3px;
+}
+.fifthsec_main .fifthsec_maincontainer .fifthsec_maincontent .fifthsec_maincontent_calendar {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  padding-top: 20px;
+}
+.fifthsec_main .fifthsec_maincontainer .fifthsec_maincontent .fifthsec_maincontent_calendar i {
+  font-size: 12px;
+  color: #6B6C6C;
+  padding-right: 10px;
+}
+.fifthsec_main .fifthsec_maincontainer .fifthsec_maincontent .fifthsec_maincontent_calendar p {
+  font-size: 12px;
+  color: #6B6C6C;
+  word-spacing: 2px;
+}
+.fifthsec_main .fifthsec_maincontainer .fifthsec_maincontent .fifthsec_maincontent_p {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-weight: 600;
+  font-size: 15px;
+  word-spacing: 5px;
+}
+.fifthsec_main .fifthsec_maincontainer .fifthsec_maincontent span {
+  font-size: 12px;
+  word-spacing: 5px;
+  color: #6B6C6C;
+}
+.fifthsec_main .fifthsec_main_href {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fifthsec_main .fifthsec_main_href a {
+  color: #20AC97;
+  text-align: center;
+}
