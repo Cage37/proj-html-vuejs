@@ -12,7 +12,7 @@
 header {
   height: 525px;
   width: 100%;
-  background-image: url(/dist/images/background-pattern-wavify.png);
+  background-image: url("../../dist/images/background-pattern-wavify.png");
 }
 header .th_navbar {
   width: 100%;
@@ -211,7 +211,7 @@ header .h_icon i {
 .fm_bottom .fm_bottom_tableb .fm_bottom_tableb_img {
   height: 300px;
   width: 55%;
-  background-image: url(/dist/images/home-movation-video-poster-670x450.jpg);
+  background-image: url("../../dist/images/home-movation-video-poster-670x450.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -533,7 +533,7 @@ header .h_icon i {
 .fourthsec_main .fourthsec_main_container .fourthsec_main_content {
   height: 100%;
   width: 50%;
-  background-image: url(/dist/images/background-pattern-wavify.png);
+  background-image: url("../../dist/images/background-pattern-wavify.png");
   display: flex;
   flex-direction: column;
   align-items: center;
