@@ -120,69 +120,14 @@
                         <h1>Latest <span>Online Courses</span></h1>
                     </div>
                     <div class="ssm_tablemain">
-                        <div class="ssm_tablecont">
-                            <img src="./dist/images/motivation-course-06-480x298.jpg" alt="">
+                        <div class="ssm_tablecont" v-for="(index) in latestCoursesCard">
+                            <img :src="index.image" alt="">
                             <div class="ssm_tablecont_bottom">
-                                <p class="tablenumber">$30.<span>00</span></p>
-                                <p>How to be Successful: Create A Growth Mindset For Success</p>
+                                <p class="tablenumber">{{ index.cardPrice }}<span>{{ index.cardPriceCent }}</span></p>
+                                <p>{{ index.cardTitle }}</p>
                                 <div class="tableicon">
-                                    <i class="far fa-sticky-note"></i><p>3 Lessons</p>
-                                    <i class="far fa-user-circle profiletable"></i><p>50 Students</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ssm_tablecont">
-                            <img src="./dist/images/motivation-course-05-480x298.jpg" alt="">
-                            <div class="ssm_tablecont_bottom">
-                                <p class="tablenumber">$30.<span>00</span></p>
-                                <p>How to Build Confidence in Your Abilities</p>
-                                <div class="tableicon">
-                                    <i class="far fa-sticky-note"></i><p>1 Lessons</p>
-                                    <i class="far fa-user-circle profiletable"></i><p>50 Students</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ssm_tablecont">
-                            <img src="./dist/images/motivation-course-04-480x298.jpg" alt="">
-                            <div class="ssm_tablecont_bottom">
-                                <p class="tablenumber">$20.<span>00</span></p>
-                                <p>Productivity Machine - Focus in a Distracted World</p>
-                                <div class="tableicon">
-                                    <i class="far fa-sticky-note"></i><p>5 Lessons</p>
-                                    <i class="far fa-user-circle profiletable"></i><p>50 Students</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ssm_tablecont">
-                            <img src="./dist/images/motivation-course-03-480x298.jpg" alt="">
-                            <div class="ssm_tablecont_bottom">
-                                <p class="tablenumber">$20.<span>00</span></p>
-                                <p>Effective Time Management Mastery - Complete Guide</p>
-                                <div class="tableicon">
-                                    <i class="far fa-sticky-note"></i><p>18 Lessons</p>
-                                    <i class="far fa-user-circle profiletable"></i><p>50 Students</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ssm_tablecont">
-                            <img src="./dist/images/motivation-course-02-480x298.jpg" alt="">
-                            <div class="ssm_tablecont_bottom">
-                                <p class="tablenumber">$25.<span>99</span></p>
-                                <p>Body Language Secrets for Entrepreneurs</p>
-                                <div class="tableicon">
-                                    <i class="far fa-sticky-note"></i><p>19 Lessons</p>
-                                    <i class="far fa-user-circle profiletable"></i><p>50 Students</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ssm_tablecont">
-                            <img src="./dist/images/motivation-course-01-480x298.jpg" alt="">
-                            <div class="ssm_tablecont_bottom">
-                                <p class="tablenumber">$19.<span>99</span></p>
-                                <p>Management Skills: The Science of Leadership</p>
-                                <div class="tableicon">
-                                    <i class="far fa-sticky-note"></i><p>17 Lessons</p>
-                                    <i class="far fa-user-circle profiletable"></i><p>50 Students</p>
+                                    <i class="far fa-sticky-note"></i><p>{{ index.cardLessons }}</p>
+                                    <i class="far fa-user-circle profiletable"></i><p>{{ index.cardStudents }}</p>
                                 </div>
                             </div>
                         </div>
@@ -287,41 +232,14 @@
                     <h5>BLOG UPDATED</h5>
                     <h1>Interesting <span>articles updated</span> daily</h1>
                     <div class="fifthsec_maincontainer">
-                        <div class="fifthsec_maincontent">
-                            <img src="./dist/images/motivation-blog-04-480x325.jpg" alt="">
+                        <div class="fifthsec_maincontent" v-for="(index) in blogUpdateCard">
+                            <img :src="index.image" alt="">
                             <div class="fifthsec_maincontent_calendar">
                                 <i class="far fa-calendar"></i>
-                                <p>May, 13, 2020</p>
+                                <p>{{ index.cardDate }}</p>
                             </div>
-                            <p class="fifthsec_maincontent_p">How to Stay True to Your Personal Brand</p>
-                            <span>When it comes to your business or career, you want ...</span>
-                        </div>
-                        <div class="fifthsec_maincontent">
-                            <img src="./dist/images/motivation-blog-03-480x325.jpg" alt="">
-                            <div class="fifthsec_maincontent_calendar">
-                                <i class="far fa-calendar"></i>
-                                <p>May, 13, 2020</p>
-                            </div>
-                            <p class="fifthsec_maincontent_p">5 Vital Lessons in 5 Years of Freelancing</p>
-                            <span>Being self-employed and working from home, it's easy to get</span>
-                        </div>
-                        <div class="fifthsec_maincontent">
-                            <img src="./dist/images/motivation-blog-02-480x325.jpg" alt="">
-                            <div class="fifthsec_maincontent_calendar">
-                                <i class="far fa-calendar"></i>
-                                <p>May, 13, 2020</p>
-                            </div>
-                            <p class="fifthsec_maincontent_p">11 Super Useful Tips for Small-Business Owners</p>
-                            <span>Being a small-business owner poses a ton of challenges. We ...</span>
-                        </div>
-                        <div class="fifthsec_maincontent">
-                            <img src="./dist/images/motivation-blog-01-480x325.jpg" alt="">
-                            <div class="fifthsec_maincontent_calendar">
-                                <i class="far fa-calendar"></i>
-                                <p>May, 13, 2020</p>
-                            </div>
-                            <p class="fifthsec_maincontent_p">How to Give Yourself Grace to Start Again</p>
-                            <span>Forgive yourself for bad habits you may have started or ...</span>
+                            <p class="fifthsec_maincontent_p">{{ index.cardTitle }}</p>
+                            <span>{{ index.cardParagraph }}</span>
                         </div>
                     </div>
                     <div class="fifthsec_main_href">
