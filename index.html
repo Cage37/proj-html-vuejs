@@ -336,7 +336,47 @@
         <!-- /Main -->
 
         <!-- Footer -->
-        <footer></footer>
+        <footer>
+            <div class="space">
+                <div class="footer_maincontainer">
+                    <div class="firstfootcont">
+                        <h4>Address</h4>
+                        <p class="firstfootcont_add">382 NE 191st St # 87394 Miami, FL 33179 - 3899</p>
+                        <p class="firstfootcont_cont">+1 (305) 547-9909 (9am - 5pm EST, Monday - Friday)</p>
+                        <span>support@maxcoach.com</span>
+                        <div>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <div class="footcont_explore">
+                        <h4>Explore</h4>
+                        <div v-for="(index) in linkFooterExplore">
+                            <a :href="index.link">{{ index.nameLink }}</a>
+                        </div>
+                    </div>
+                    <div class="footcont_contact">
+                        <div v-for="(index) in linkFooterContact">
+                            <a :href="index.link">{{ index.nameLink }}</a>
+                        </div>
+                    </div>
+                    <div class="footcont_info">
+                        <h4>Information</h4>
+                        <div v-for="(index) in linkFooterInfo">
+                            <a :href="index.link">{{ index.nameLink }}</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footcont_bottom">
+                    <p><i class="far fa-copyright"></i> 2020 Maxcoach. All right Reserved</p>
+                </div>
+                <div class="footcont_circle">
+                    <i class="fas fa-arrow-up"></i>
+                </div>
+            </div>
+        </footer>
         <!-- /Footer -->
 
     </div>

@@ -668,3 +668,104 @@ header .h_icon i {
   color: #20AC97;
   text-align: center;
 }
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #141423;
+  color: #9AA2A6;
+}
+footer .footer_maincontainer {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+footer .footer_maincontainer .firstfootcont {
+  height: 100%;
+  width: 400px;
+  line-height: 30px;
+}
+footer .footer_maincontainer .firstfootcont h4 {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 15px;
+}
+footer .footer_maincontainer .firstfootcont .firstfootcont_add {
+  font-size: 12px;
+  width: 300px;
+}
+footer .footer_maincontainer .firstfootcont .firstfootcont_cont {
+  font-size: 12px;
+  width: 300px;
+}
+footer .footer_maincontainer .firstfootcont span {
+  font-size: 12px;
+}
+footer .footer_maincontainer .firstfootcont i {
+  padding-right: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+footer .footer_maincontainer .footcont_explore {
+  line-height: 30px;
+  margin-left: 180px;
+  width: 150px;
+}
+footer .footer_maincontainer .footcont_explore h4 {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 15px;
+}
+footer .footer_maincontainer .footcont_explore a {
+  text-decoration: none;
+  color: #9AA2A6 !important;
+  font-size: 12px;
+}
+footer .footer_maincontainer .footcont_contact {
+  line-height: 30px;
+  margin-left: 80px;
+  padding-top: 29px;
+  width: 200px;
+}
+footer .footer_maincontainer .footcont_contact a {
+  text-decoration: none;
+  color: #9AA2A6 !important;
+  font-size: 12px;
+}
+footer .footer_maincontainer .footcont_info {
+  line-height: 30px;
+  margin-left: 80px;
+  width: 200px;
+}
+footer .footer_maincontainer .footcont_info h4 {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 15px;
+}
+footer .footer_maincontainer .footcont_info a {
+  text-decoration: none;
+  color: #9AA2A6 !important;
+  font-size: 12px;
+}
+footer .footcont_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+footer .footcont_circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #20AC97;
+  margin-left: 1110px;
+}
+footer .footcont_circle i {
+  font-size: 20px;
+  color: #FFFFFF;
+}
